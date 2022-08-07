@@ -24,6 +24,10 @@ public class MensagemTexto extends Mensagem {
         this.texto = texto;
     }
 
+    @Override
+    public String exibirConteudo(){
+        return texto;
+    }
     /*
      * Retorna o texto da mensagem
      */

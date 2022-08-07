@@ -30,6 +30,9 @@ public class MensagemFoto extends Mensagem {
         this.legenda = legenda;
     }
 
+    public String exibirConteudo(){
+        return arquivoFoto + "\n" + legenda;
+    }
     /*
      * Retorna o nome do arquivo que contem a foto
      */

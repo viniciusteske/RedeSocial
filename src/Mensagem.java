@@ -61,11 +61,15 @@ public class Mensagem {
      */
     public void exibir() {
         System.out.println(autor);
+        System.out.println(exibirConteudo());
         System.out.println("\t" + exibirTempo() + " - "
                 + nroCurtidas + " pessoas curtiram isso!");
         exibirComentarios();
     }
 
+    protected String exibirConteudo(){
+        return null;
+    }
     /**
      * Metodo auxiliar usado no metodo exibir para que seja exibido ha
      * quanto tempo a mensagem foi postada.
